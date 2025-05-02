@@ -30,7 +30,7 @@ body, html {
   }
 
   .hero {
-    background: url('spoonie.jpg') no-repeat center center;
+    background: url('images/spoonie.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     position: relative;
