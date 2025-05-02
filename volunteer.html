@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird Photography Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="menu-toggle">☰</button>
+
+    <div id="navbar">
+      <div class="nav-top">
+          <div class="nav-item main-nav"><a href="home.html">Home</a></div>
+          <div class="nav-item main-nav"><a href="about.html">About</a></div>
+          <div class="nav-item main-nav"><a href="portfolio.html">Birding</a></div>
+          <div class="nav-item main-nav"><a href="volunteer.html">Volunteering</a></div>
+      </div>
+      <div class="nav-bottom">
+        <div class="contact-column">
+          <div class="nav-item contact-heading">Find Alice on</div>
+          <div class="nav-item contact"><a href="https://www.instagram.com/birdsbyalice">Instagram</a></div>
+        </div>
+    </div>
+  </div>
+  
+  <div id="overlay"></div>
+  <header class="site-header">
+    <h1 class="site-name">
+      <a href="home.html">Birds by Alice</a>
+    </h1>
+  </header>
+
+  <section class="portfolio">
+    <div class="gallery">
+      <div class="image-container">
+        <img src="group.jpg" alt="A group picture on the beach of a Wheel to Surf event">
+        <img src="adaptiveboard.jpg" alt="A young person in the water on an adaptive surfboard with a volunteer">
+        <img src="watergroup.jpg" alt="A young person in the water on an adaptive surfboard with a group of volunteers">
+        <img src="childsurfing.jpg" alt="A young person in the water on an adaptive surfboard with a volunteer">
+        <img src="volunteersurfing.jpg" alt="A young person and a volunteer riding a surfboard">
+        <img src="longshot.jpg" alt="A young person in the water on an adaptive surfboard with a group of volunteers">
+        <img src="group2.jpg" alt="A group picture on the beach of a Wheel to Surf event">
+      </div>
+    </div>
+  </section>
+
+  <section class="publishing-section">
+    <div style="display: flex; justify-content: center; align-items: center; margin: 2rem 0;">
+    <div style="max-width: 600px; text-align: left; margin-right: 20px;">
+      <h2>Wheel to Surf</h2>
+      <p>
+        Coastal Adaptive Sports hosts a variety of events throughout the year that empower individuals with disabilities to become active in sports. Wheel to Surf is one of their most notable projects. At these gatherings, volunteers make surfing accessible and inclusive for all.</p>
+        <p>Alice is passionate about capturing the joy at Wheel to Surf. From Myrtle Beach to Folly Beach, she's volunteered at numerous events to ensure every participant and their families leave with lasting photographic memories of their time in the waves.
+      </p>
+      <p>
+        <a href="https://www.coastaladaptivesports.org" target="_blank" rel="noopener noreferrer">
+          Learn more about becoming a participant or volunteer with Coastal Adaptive Sports.
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  
+<footer class="site-footer">
+  <p>&copy; Birds by Alice</p>
+</footer>
+
+  <script src="script.js"></script>
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Enlarged image">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
+</body>
+</html>
