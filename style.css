@@ -88,6 +88,10 @@ body, html {
   z-index: 1001;
 }
 
+#navbar {
+  overflow: hidden;
+}
+
 #navbar .nav-item {
   color: white;
 }
